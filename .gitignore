@@ -1,0 +1,6 @@
+# UiPath local files
+.local/
+.project/
+.settings/
+.analysis/
+.tmh/
