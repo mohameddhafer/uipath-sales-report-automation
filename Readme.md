@@ -60,6 +60,42 @@ The project demonstrates enterprise automation best practices through modular wo
 
 ---
 
+# 📈 Business Benefits
+
+This solution enables organizations to:
+
+* Reduce manual reporting effort
+* Improve reporting consistency
+* Eliminate repetitive PowerPoint updates
+* Produce executive-ready reports within minutes
+* Increase reporting accuracy
+* Standardize KPI calculations
+* Improve decision-making through visual analytics
+
+---
+
+# 📂 Repository Structure
+
+```text
+.
+├── Assets/
+├── Data/
+├── Documentation/
+├── Output/
+├── Workflows/
+│   ├── ReadExcelData.xaml
+│   ├── ProcessKPIs.xaml
+│   ├── GenerateInsights.xaml
+│   └── FillPresentation.xaml
+│
+├── Main.xaml
+├── project.json
+├── LICENSE
+└── README.md
+```
+
+---
+
 # 🏗 Solution Architecture
 
 ```text
@@ -125,100 +161,6 @@ ExecutiveSalesReport.pptx
 
 ---
 
-# 📊 KPI Engine
-
-The automation calculates business indicators such as:
-
-* Total Revenue
-* Total Sales Target
-* Achievement Percentage
-* Revenue by Product
-* Best Performing Product
-* Lowest Performing Region
-* Executive Business Insights
-
----
-
-# 📈 Business Insights
-
-Based on KPI calculations, the automation automatically generates management insights, for example:
-
-* Revenue performance
-* Product contribution
-* Regional performance
-
-These insights are automatically inserted into the presentation.
-
----
-
-# 📊 Dynamic Visualizations
-
-The solution generates a professional chart (Revenue by Product) which is automatically populated into the PowerPoint presentation.
-
----
-
-# 📑 PowerPoint Automation
-
-The automation updates a PowerPoint template by automatically inserting:
-
-* Report Month
-* KPI Cards
-* Revenue Metrics
-* Business Insights
-* Regional Performance
-
-The final output is a presentation ready for executive meetings.
-
----
-
-# 🛠 Technologies
-
-## Automation
-
-* UiPath Studio
-* UiPath Excel Activities
-* UiPath Presentations Activities
-* UiPath System Activities
-
-## Reporting
-
-* Microsoft Excel
-* Microsoft PowerPoint
-
-## Programming
-
-* VB.NET
-
-## Design
-
-* Modular Workflow Architecture
-* Reusable Components
-* DataTables
-
----
-
-# 📂 Repository Structure
-
-```text
-.
-├── Assets/
-├── Data/
-├── Documentation/
-├── Output/
-├── Workflows/
-│   ├── ReadExcelData.xaml
-│   ├── ProcessKPIs.xaml
-│   ├── GenerateInsights.xaml
-│   └── FillPresentation.xaml
-│
-├── Main.xaml
-├── project.json
-├── LICENSE
-└── README.md
-```
-
----
-
 # ⚙ Configuration
 
 Project resources are stored under the **Data** and **Assets** folders.
@@ -271,17 +213,57 @@ containing:
 
 ---
 
-# 📈 Business Benefits
+Based on KPI calculations, the automation automatically generates management insights, for example:
 
-This solution enables organizations to:
+* Revenue performance
+* Product contribution
+* Regional performance
 
-* Reduce manual reporting effort
-* Improve reporting consistency
-* Eliminate repetitive PowerPoint updates
-* Produce executive-ready reports within minutes
-* Increase reporting accuracy
-* Standardize KPI calculations
-* Improve decision-making through visual analytics
+These insights are automatically inserted into the presentation.
+
+---
+
+The solution generates a professional chart (Revenue by Product) which is automatically populated into the PowerPoint presentation.
+
+---
+
+# 📑 PowerPoint Automation
+
+The automation updates a PowerPoint template by automatically inserting:
+
+* Report Month
+* KPI Cards
+* Revenue Metrics
+* Business Insights
+* Regional Performance
+
+The final output is a presentation ready for executive meetings.
+
+---
+
+# 🛠 Technologies
+
+## Automation
+
+* UiPath Studio
+* UiPath Excel Activities
+* UiPath Presentations Activities
+* UiPath System Activities
+
+## Reporting
+
+* Microsoft Excel
+* Microsoft PowerPoint
+
+## Programming
+
+* VB.NET
+
+## Design
+
+* Modular Workflow Architecture
+* Reusable Components
+* DataTables
 
 ---
 
@@ -300,36 +282,6 @@ This solution enables organizations to:
 3. Update the input Excel dataset if required.
 4. Run `Main.xaml`.
 5. Retrieve the generated PowerPoint presentation from the **Output** folder.
-
----
-
-# 📚 Skills Demonstrated
-
-## Robotic Process Automation
-
-* UiPath
-* Excel Automation
-* PowerPoint Automation
-* Workflow Orchestration
-
-## Data Processing
-
-* KPI Calculation
-* Revenue Analysis
-* Data Transformation
-
-## Data Visualization
-
-* Executive Dashboards
-* Business Reporting
-
-## Software Engineering
-
-* Modular Design
-* VB.NET
-* Logging
-* Exception Handling
-* Reusable Components
 
 ---
 
